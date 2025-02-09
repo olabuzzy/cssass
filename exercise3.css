@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(152, 150, 240); /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 400px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .badge {
+    background-color: #ffd700; /* Gold background */
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    left: 23%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .watch-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .text h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .text h1 span {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .text p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+  }

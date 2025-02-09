@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f4f8ff;
+  }
+  
+  .hero .highlight {
+    color: #007bff;
+  }
+  
+  .hero .cta-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .primary-btn {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .hero .secondary-btn {
+    background: #ddd;
+  }
+  
+  .features {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .features .highlight {
+    color: #007bff;
+  }
+  
+  .feature-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pricing {
+    padding: 40px 20px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pricing .card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .faq {
+    padding: 40px 20px;
+    background: #f9f9f9;
+  }
+  
+  .faq .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
